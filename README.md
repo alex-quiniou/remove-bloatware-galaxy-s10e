@@ -148,10 +148,10 @@ pm uninstall -k --user 0 'com.sec.android.app.clockpackage'
 
 ### Samsung Games
 
-pm uninstall -k --user 0 'com.samsung.android.game.gamehome'
-pm uninstall -k --user 0 'com.samsung.android.game.gametools'
-pm uninstall -k --user 0 'com.samsung.android.game.gos'
-pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'
+pm uninstall -k --user 0 'com.samsung.android.game.gamehome'  
+pm uninstall -k --user 0 'com.samsung.android.game.gametools'  
+pm uninstall -k --user 0 'com.samsung.android.game.gos'  
+pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'  
 
 # Hard list removal
 
