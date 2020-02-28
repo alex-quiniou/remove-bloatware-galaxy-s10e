@@ -141,6 +141,11 @@ pm uninstall -k --user 0 'com.samsung.android.spayfw'
 pm uninstall -k --user 0 'com.samsung.android.kgclient'  
 pm uninstall -k --user 0 'com.sec.android.app.billing'  
 
+### Samsung Clock
+
+pm uninstall -k --user 0 'com.samsung.android.dynamiclock'  
+pm uninstall -k --user 0 'com.sec.android.app.clockpackage'  
+
 # Hard list removal
 
 You are probably using one of them. Pay attention about your actions ! If you remove them nothing bad will happen.
@@ -197,9 +202,12 @@ You are probably using one of them. Pay attention about your actions ! If you re
 | pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends |
 | pm uninstall -k --user 0 'com.sec.spp.push' | Samsung push service |
 | pm uninstall -k --user 0 'com.samsung.android.rubin.app' | Service de personnalisation |
-| pm uninstall -k --user 0 'com.samsung.android.lool' | Device Care |
+| pm uninstall -k --user 0 '[com.samsung.android.lool](https://play.google.com/store/apps/details?id=com.samsung.android.lool)' | Device Care |
 | pm uninstall -k --user 0 'com.samsung.android.app.sbrowseredge' | Volet Samsung Internet |
 | pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home |
+| pm uninstall -k --user 0 '[com.sec.android.app.myfiles](https://play.google.com/store/apps/details?id=com.sec.android.app.myfiles)' | Samsung My Files |
+| pm uninstall -k --user 0 '[com.sec.android.gallery3d](https://play.google.com/store/apps/details?id=com.sec.android.gallery3d)' | Samsung Gallery |
+| [com.samsung.android.app.aodservice](https://play.google.com/store/apps/details?id=com.samsung.android.app.aodservice)' | [Samsung] Always On Display |
 
 ### You unistalled an important app, what to do ?
 You can restore any app you have 'unistall'
