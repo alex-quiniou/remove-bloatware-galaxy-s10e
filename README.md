@@ -146,6 +146,13 @@ pm uninstall -k --user 0 'com.sec.android.app.billing'
 pm uninstall -k --user 0 'com.samsung.android.dynamiclock'  
 pm uninstall -k --user 0 'com.sec.android.app.clockpackage'  
 
+### Samsung Games
+
+pm uninstall -k --user 0 'com.samsung.android.game.gamehome'
+pm uninstall -k --user 0 'com.samsung.android.game.gametools'
+pm uninstall -k --user 0 'com.samsung.android.game.gos'
+pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'
+
 # Hard list removal
 
 You are probably using one of them. Pay attention about your actions ! If you remove them nothing bad will happen.
