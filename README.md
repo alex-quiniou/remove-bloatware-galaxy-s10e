@@ -1,4 +1,4 @@
-# Bloatware remover for | Galaxy S10e
+# Bloatware remover for | Galaxy S10e (SM-G970F)
 
 This project can help you if
 
