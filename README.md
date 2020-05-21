@@ -138,14 +138,14 @@ pm uninstall -k --user 0 'com.sec.android.app.clockpackage'
 pm uninstall -k --user 0 'com.samsung.android.game.gamehome'  
 pm uninstall -k --user 0 'com.samsung.android.game.gametools'  
 pm uninstall -k --user 0 'com.samsung.android.game.gos'  
-pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'
+pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'  
 
 ### Samsung AR
-pm uninstall -k --user 0 'com.samsung.android.aremoji'
-pm uninstall -k --user 0 'com.samsung.android.ardrawing'
-pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearframe.preload'
-pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.preload'
-pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload'
+pm uninstall -k --user 0 'com.samsung.android.aremoji'  
+pm uninstall -k --user 0 'com.samsung.android.ardrawing'  
+pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearframe.preload'  
+pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.preload'  
+pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload'  
 
 # Hard list removal
 You are probably using one of them. Pay attention about your actions !
