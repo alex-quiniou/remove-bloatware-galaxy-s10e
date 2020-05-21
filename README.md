@@ -138,7 +138,14 @@ pm uninstall -k --user 0 'com.sec.android.app.clockpackage'
 pm uninstall -k --user 0 'com.samsung.android.game.gamehome'  
 pm uninstall -k --user 0 'com.samsung.android.game.gametools'  
 pm uninstall -k --user 0 'com.samsung.android.game.gos'  
-pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'  
+pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'
+
+### Samsung AR
+pm uninstall -k --user 0 'com.samsung.android.aremoji'
+pm uninstall -k --user 0 'com.samsung.android.ardrawing'
+pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearframe.preload'
+pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.preload'
+pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload'
 
 # Hard list removal
 You are probably using one of them. Pay attention about your actions !
@@ -172,8 +179,6 @@ You are probably using one of them. Pay attention about your actions !
 | Syntax      | Description |
 | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.samsung.android.app.cocktailbarservice' | Ecran latéral ✔️ |
-| pm uninstall -k --user 0 'com.samsung.android.aremoji' | AR Emoji ✔️ |
-| pm uninstall -k --user 0 'com.samsung.android.ardrawing' | AR Doodle ✔️ |
 | pm uninstall -k --user 0 'com.samsung.app.slowmotion' | Rogner ✔️ |
 | pm uninstall -k --user 0 'com.samsung.android.calendar' | Calendrier ✔️ |
 | pm uninstall -k --user 0 'com.sec.android.inputmethod' | Clavier Samsung ✔️ |
@@ -183,10 +188,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.sec.android.app.samsungapps' | Galaxy Store ✔️ |
 | pm uninstall -k --user 0 'com.samsung.android.video' | Lecteur vidéo ✔️ |
 | pm uninstall -k --user 0 'com.samsung.android.messaging' | Messages ✔️ |
-| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearframe.preload' | Cadres ✔️ |
 | pm uninstall -k --user 0 'com.samsung.android.wallpaper.res' | com.samsung.android.wallpaper.res ✔️ |
-| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.preload' | Crocro et ses amis ✔️ |
-| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload' | Décoration pour le visage ✔️ |
 | pm uninstall -k --user 0 'com.samsung.app.newtrim' | Découpage de vidéos ✔️ |
 | pm uninstall -k --user 0 'com.samsung.app.highlightplayer' | Créer un film ✔️ |
 | pm uninstall -k --user 0 'com.samsung.storyservice' | Histoire de la Galerie ✔️ |
