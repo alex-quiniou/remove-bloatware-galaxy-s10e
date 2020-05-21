@@ -171,73 +171,75 @@ You are probably using one of them. Pay attention about your actions !
 ### Samsung
 | Syntax      | Description |
 | ----------- | ----------- |
-| pm uninstall -k --user 0 'com.samsung.android.app.cocktailbarservice' | Ecran latéral |
-| pm uninstall -k --user 0 'com.samsung.android.aremoji' | AR Emoji |
-| pm uninstall -k --user 0 'com.samsung.android.ardrawing' | AR Doodle |
-| pm uninstall -k --user 0 'com.samsung.app.slowmotion' | Rogner |
-| pm uninstall -k --user 0 'com.samsung.android.calendar' | Calendrier |
-| pm uninstall -k --user 0 'com.sec.android.inputmethod' | Clavier Samsung |
-| pm uninstall -k --user 0 'com.osp.app.signin' | Compte Samsung |
-| pm uninstall -k --user 0 'com.samsung.android.app.contacts' | Contacts |
-| pm uninstall -k --user 0 'com.samsung.android.contacts' | Contacts Migrator |
-| pm uninstall -k --user 0 'com.samsung.android.forest' | Bien-etre numérique et controles parentaux |
-| pm uninstall -k --user 0 'com.sec.android.app.samsungapps' | Galaxy Store |
-| pm uninstall -k --user 0 'com.samsung.android.video' | Lecteur vidéo |
-| pm uninstall -k --user 0 'com.samsung.android.messaging' | Messages |
-| pm uninstall -k --user 0 'com.sec.android.daemonapp' | Meteo |
-| pm uninstall -k --user 0 'com.sec.android.app.quicktool' | Outils |
-| pm uninstall -k --user 0 'com.samsung.android.app.simplesharing' | Partage de liens |
-| pm uninstall -k --user 0 'com.samsung.android.scloud' | Samsung Cloud |
-| pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta |
-| pm uninstall -k --user 0 '[com.sec.android.service.health](https://play.google.com/store/apps/details?id=com.sec.android.app.shealth)' | Samsung Health |
-| pm uninstall -k --user 0 'com.sec.android.sdhms' | Samsung Device Health Manager Service |
-| pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service |
-| pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends |
-| pm uninstall -k --user 0 'com.sec.spp.push' | Samsung push service |
-| pm uninstall -k --user 0 'com.samsung.android.rubin.app' | Service de personnalisation |
-| pm uninstall -k --user 0 '[com.samsung.android.lool](https://play.google.com/store/apps/details?id=com.samsung.android.lool)' | Device Care |
-| pm uninstall -k --user 0 'com.samsung.android.app.sbrowseredge' | Volet Samsung Internet |
-| pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home |
-| pm uninstall -k --user 0 '[com.sec.android.app.myfiles](https://play.google.com/store/apps/details?id=com.sec.android.app.myfiles)' | Samsung My Files |
-| pm uninstall -k --user 0 '[com.sec.android.gallery3d](https://play.google.com/store/apps/details?id=com.sec.android.gallery3d)' | Samsung Gallery |
-| pm uninstall -k --user 0 '[com.samsung.android.app.aodservice](https://play.google.com/store/apps/details?id=com.samsung.android.app.aodservice)' | Always On Display |
-| pm uninstall -k --user 0 'com.sec.android.widgetapp.samsungapps' | Widget Les indisp. Galaxy |
-| pm uninstall -k --user 0 'com.samsung.android.fast' | Wi-Fi sécurisé |
-| pm uninstall -k --user 0 'com.samsung.android.allshare.service.fileshare' | Wi-Fi Direct |
-| pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | Wearable Manager Installer |
-| pm uninstall -k --user 0 'com.samsung.android.dialer' | Téléphone |
-| pm uninstall -k --user 0 'com.samsung.android.fmm' | Traçage du mobile |
-| pm uninstall -k --user 0 'com.samsung.android.beaconmanager' | SmartThings |
-| pm uninstall -k --user 0 'com.samsung.android.smartfitting' | SmartFittingService |
-| pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows |
-| pm uninstall -k --user 0 'com.samsung.android.app.mirrorlink' | Samsung MirrorLink 1.1 |
-| pm uninstall -k --user 0 'com.samsung.android.svoiceime' | Saisie vocale Samsung |
-| pm uninstall -k --user 0 'com.samsung.android.app.reminder' | Reminder |
-| pm uninstall -k --user 0 'com.samsung.android.easysetup' | Recherche d'appareils à proximité |
-| pm uninstall -k --user 0 'com.samsung.android.sm.devicesecurity' | Protection |
-| pm uninstall -k --user 0 'com.samsung.android.kidsinstaller' | Programme d'installation Espace enfants |
-| pm uninstall -k --user 0 'com.samsung.android.app.clipboardedge' | Presse-papiers latéral |
-| pm uninstall -k --user 0 'com.samsung.android.service.peoplestripe' | Personnes |
-| pm uninstall -k --user 0 'com.samsung.android.app.telephonyui' | Paramètres d'appel |
-| pm uninstall -k --user 0 'com.samsung.android.app.social' | Nouveautés |
-| pm uninstall -k --user 0 'com.samsung.android.service.livedrawing' | Messages animés |
-| pm uninstall -k --user 0 'com.samsung.android.da.daagent' | Messagerie double |
-| pm uninstall -k --user 0 'com.samsung.storyservice' | Histoire de la Galerie |
-| pm uninstall -k --user 0 'com.samsung.android.hmt.vrsvc' | Gear VR Service |
-| pm uninstall -k --user 0 'com.samsung.android.app.dressroom' | Fonds d'écran |
-| pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder |
-| pm uninstall -k --user 0 'com.samsung.app.newtrim' | Découpage de vidéos |
-| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload' | Décoration pour le visage |
-| pm uninstall -k --user 0 'com.samsung.app.highlightplayer' | Créer un film |
-| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.preload' | Crocro et ses amis |
-| pm uninstall -k --user 0 'com.samsung.safetyinformation' | Consignes de sécurité |
-| pm uninstall -k --user 0 'com.samsung.android.wallpaper.res' | com.samsung.android.wallpaper.res |
-| pm uninstall -k --user 0 'com.samsung.android.drivelink.stub' | CarmodeStub |
-| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearframe.preload' | Cadres |
-| pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces |
-| pm uninstall -k --user 0 'com.samsung.android.app.appsedge' | Applications |
-| pm uninstall -k --user 0 'com.samsung.android.mdecservice' | Appels/SMS sur autres appareils |
-| pm uninstall -k --user 0 'com.samsung.android.app.taskedge' | Actions |
+| pm uninstall -k --user 0 'com.samsung.android.app.cocktailbarservice' | Ecran latéral ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.aremoji' | AR Emoji ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.ardrawing' | AR Doodle ✔️ |
+| pm uninstall -k --user 0 'com.samsung.app.slowmotion' | Rogner ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.calendar' | Calendrier ✔️ |
+| pm uninstall -k --user 0 'com.sec.android.inputmethod' | Clavier Samsung ✔️ |
+| pm uninstall -k --user 0 'com.osp.app.signin' | Compte Samsung ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.contacts' | Contacts ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.forest' | Bien-etre numérique et controles parentaux ✔️ |
+| pm uninstall -k --user 0 'com.sec.android.app.samsungapps' | Galaxy Store ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.video' | Lecteur vidéo ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.messaging' | Messages ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearframe.preload' | Cadres ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.wallpaper.res' | com.samsung.android.wallpaper.res ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.preload' | Crocro et ses amis ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload' | Décoration pour le visage ✔️ |
+| pm uninstall -k --user 0 'com.samsung.app.newtrim' | Découpage de vidéos ✔️ |
+| pm uninstall -k --user 0 'com.samsung.app.highlightplayer' | Créer un film ✔️ |
+| pm uninstall -k --user 0 'com.samsung.storyservice' | Histoire de la Galerie ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.hmt.vrsvc' | Gear VR Service ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.service.livedrawing' | Messages animés ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.clipboardedge' | Presse-papiers latéral ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.kidsinstaller' | Programme d'installation Espace enfants ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.svoiceime' | Saisie vocale Samsung ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.reminder' | Reminder ✔️ |
+| pm uninstall -k --user 0 '[com.sec.android.app.myfiles](https://play.google.com/store/apps/details?id=com.sec.android.app.myfiles)' | Samsung My Files ✔️ |
+| pm uninstall -k --user 0 '[com.sec.android.gallery3d](https://play.google.com/store/apps/details?id=com.sec.android.gallery3d)' | Samsung Gallery ✔️ |
+| pm uninstall -k --user 0 '[com.samsung.android.app.aodservice](https://play.google.com/store/apps/details?id=com.samsung.android.app.aodservice)' | Always On Display ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.sbrowseredge' | Volet Samsung Internet ✔️ |
+| pm uninstall -k --user 0 '[com.samsung.android.lool](https://play.google.com/store/apps/details?id=com.samsung.android.lool)' | Device Care ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.scloud' | Samsung Cloud ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta ✔️ |
+| pm uninstall -k --user 0 '[com.sec.android.service.health](https://play.google.com/store/apps/details?id=com.sec.android.app.shealth)' | Samsung Health ✔️ |
+| ----------- | ----------- |
+| pm uninstall -k --user 0 'com.sec.android.daemonapp' | Meteo ❓ |
+| pm uninstall -k --user 0 'com.sec.android.app.quicktool' | Outils ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.simplesharing' | Partage de liens ❓ |
+| pm uninstall -k --user 0 'com.sec.android.sdhms' | Samsung Device Health Manager Service ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends ❓ |
+| pm uninstall -k --user 0 'com.sec.spp.push' | Samsung push service ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.rubin.app' | Service de personnalisation ❓ |
+| pm uninstall -k --user 0 'com.sec.android.widgetapp.samsungapps' | Widget Les indisp. Galaxy ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.fast' | Wi-Fi sécurisé ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.allshare.service.fileshare' | Wi-Fi Direct ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | Wearable Manager Installer ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.dialer' | Téléphone ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.fmm' | Traçage du mobile ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.beaconmanager' | SmartThings ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.smartfitting' | SmartFittingService ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.mirrorlink' | Samsung MirrorLink 1.1 ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.easysetup' | Recherche d'appareils à proximité ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.sm.devicesecurity' | Protection ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.service.peoplestripe' | Personnes ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.telephonyui' | Paramètres d'appel ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.social' | Nouveautés ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.da.daagent' | Messagerie double ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.dressroom' | Fonds d'écran ❓ |
+| pm uninstall -k --user 0 'com.samsung.safetyinformation' | Consignes de sécurité ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.drivelink.stub' | CarmodeStub ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.appsedge' | Applications ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.mdecservice' | Appels/SMS sur autres appareils ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.app.taskedge' | Actions ❓ |
+| pm uninstall -k --user 0 'com.samsung.android.contacts' | Contacts Migrator ❓ |
+| ----------- | ----------- |
+| pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** |
+| pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home ***WARNING without this no task manager*** |
 
 ### You unistalled an important app, what to do ?
 You can restore any app you have 'unistall'
