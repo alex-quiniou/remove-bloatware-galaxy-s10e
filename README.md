@@ -148,6 +148,11 @@ pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.pr
 pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload'  
 pm uninstall -k --user 0 'com.samsung.android.arzone'  
 
+### Samsung Share apps
+pm uninstall -k --user 0 'com.samsung.android.app.simplesharing'
+pm uninstall -k --user 0 'com.samsung.android.aware.service'
+pm uninstall -k --user 0 'com.samsung.android.app.sharelive'
+
 # Hard list removal
 You are probably using one of them. Pay attention about your actions !
 
@@ -208,6 +213,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta ✔️ |
 | pm uninstall -k --user 0 '[com.sec.android.service.health](https://play.google.com/store/apps/details?id=com.sec.android.app.shealth)' | Samsung Health ✔️ |
 | pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces ✔️ |
+|pm uninstall -k --user 0 'com.samsung.android.mdx' 	Service Lien avec Windows ✔️ |
 | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.sec.android.daemonapp' | Meteo ❓ |
 | pm uninstall -k --user 0 'com.sec.android.app.quicktool' | Outils ❓ |
@@ -225,7 +231,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.fmm' | Traçage du mobile ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.beaconmanager' | SmartThings ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.smartfitting' | SmartFittingService ❓ |
-| pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.app.mirrorlink' | Samsung MirrorLink 1.1 ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.easysetup' | Recherche d'appareils à proximité ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.sm.devicesecurity' | Protection ❓ |
