@@ -207,6 +207,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.scloud' | Samsung Cloud ✔️ |
 | pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta ✔️ |
 | pm uninstall -k --user 0 '[com.sec.android.service.health](https://play.google.com/store/apps/details?id=com.sec.android.app.shealth)' | Samsung Health ✔️ |
+| pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces ✔️ |
 | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.sec.android.daemonapp' | Meteo ❓ |
 | pm uninstall -k --user 0 'com.sec.android.app.quicktool' | Outils ❓ |
@@ -235,7 +236,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.dressroom' | Fonds d'écran ❓ |
 | pm uninstall -k --user 0 'com.samsung.safetyinformation' | Consignes de sécurité ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.drivelink.stub' | CarmodeStub ❓ |
-| pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.app.appsedge' | Applications ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.mdecservice' | Appels/SMS sur autres appareils ❓ |
 | pm uninstall -k --user 0 'com.samsung.android.app.taskedge' | Actions ❓ |
