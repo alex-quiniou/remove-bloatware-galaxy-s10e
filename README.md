@@ -149,9 +149,9 @@ pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload'
 pm uninstall -k --user 0 'com.samsung.android.arzone'  
 
 ### Samsung Share apps
-pm uninstall -k --user 0 'com.samsung.android.app.simplesharing'
-pm uninstall -k --user 0 'com.samsung.android.aware.service'
-pm uninstall -k --user 0 'com.samsung.android.app.sharelive'
+pm uninstall -k --user 0 'com.samsung.android.app.simplesharing'  
+pm uninstall -k --user 0 'com.samsung.android.aware.service'  
+pm uninstall -k --user 0 'com.samsung.android.app.sharelive'  
 
 # Hard list removal
 You are probably using one of them. Pay attention about your actions !
