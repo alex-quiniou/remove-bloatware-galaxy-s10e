@@ -146,6 +146,7 @@ pm uninstall -k --user 0 'com.samsung.android.ardrawing'
 pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearframe.preload'  
 pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.preload'  
 pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload'  
+pm uninstall -k --user 0 'com.samsung.android.arzone'  
 
 # Hard list removal
 You are probably using one of them. Pay attention about your actions !
