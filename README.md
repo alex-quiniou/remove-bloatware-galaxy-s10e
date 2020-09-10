@@ -213,7 +213,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta ✔️ |
 | pm uninstall -k --user 0 '[com.sec.android.service.health](https://play.google.com/store/apps/details?id=com.sec.android.app.shealth)' | Samsung Health ✔️ |
 | pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces ✔️ |
-|pm uninstall -k --user 0 'com.samsung.android.mdx' 	Service Lien avec Windows ✔️ |
+|pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows ✔️ |
 | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.sec.android.daemonapp' | Meteo ❓ |
 | pm uninstall -k --user 0 'com.sec.android.app.quicktool' | Outils ❓ |
