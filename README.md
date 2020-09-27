@@ -158,13 +158,13 @@ You are probably using one of them. Pay attention about your actions !
 
 ### Microsoft
 | Syntax      | App Name | what this app do ? |
-| ----------- | ----------- | ------------------- |
+| ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.microsoft.skydrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive)' | Microsoft OneDrive | See Play Store |
 | pm uninstall -k --user 0 '[com.microsoft.appmanager](https://play.google.com/store/apps/details?id=com.microsoft.appmanager)' | Your Phone Companion - Link to Windows | See Play Store |
 
 ### Google
 | Syntax      | App Name | what this app do ? |
-| ----------- | ----------- | ------------------- |
+| ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.android.chrome](https://play.google.com/store/apps/details?id=com.android.chrome)' | Google Chrome: Fast & Secure | See Play Store |
 | pm uninstall -k --user 0 '[com.google.android.youtube](https://play.google.com/store/apps/details?id=com.google.android.youtube)' | YouTube | See Play Store |
 | pm uninstall -k --user 0 '[com.google.android.googlequicksearchbox](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox)' | Google | See Play Store |
@@ -187,7 +187,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 '[com.google.android.as](https://play.google.com/store/apps/details?id=com.google.android.as)' | Services de personnalisation de l'appareil | See Play Store |
 | pm uninstall -k --user 0 '[com.google.android.projection.gearhead](https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead)' | Android Auto - Google Maps, Media & Messaging | See Play Store |
 | pm uninstall -k --user 0 '[com.google.android.apps.tachyon](https://play.google.com/store/apps/details?id=com.google.android.apps.tachyon)' | Google Duo - High Quality Video Calls | See Play Store |
-| ----------- | ----------- | ------------------- |
+| ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.google.android.gms.location.history' | Historique des positions Google | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.ext.services' | Android Services Library | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.onetimeinitializer' | Google One Time Init | ***HELP NEEDEED*** |
@@ -212,13 +212,13 @@ You are probably using one of them. Pay attention about your actions !
 
 ### Samsung
 | Syntax      | App Name | what this app do ? |
-| ----------- | ----------- | ------------------- |
+| ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.myfiles](https://play.google.com/store/apps/details?id=com.sec.android.app.myfiles)' | Samsung My Files | See Play Store |
 | pm uninstall -k --user 0 '[com.sec.android.gallery3d](https://play.google.com/store/apps/details?id=com.sec.android.gallery3d)' | Samsung Gallery | See Play Store |
 | pm uninstall -k --user 0 '[com.samsung.android.app.aodservice](https://play.google.com/store/apps/details?id=com.samsung.android.app.aodservice)' | Always On Display | See Play Store |
 | pm uninstall -k --user 0 '[com.samsung.android.lool](https://play.google.com/store/apps/details?id=com.samsung.android.lool)' | Device Care | See Play Store |
 | pm uninstall -k --user 0 '[com.sec.android.service.health](https://play.google.com/store/apps/details?id=com.sec.android.app.shealth)' | Samsung Health | See Play Store |
-| ----------- | ----------- | ------------------- |
+| ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.samsung.android.app.cocktailbarservice' | Ecran latéral | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.app.slowmotion' | Rogner | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.calendar' | Calendrier | ***HELP NEEDEED*** |
@@ -244,13 +244,13 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces | ***HELP NEEDEED*** |
 |pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows | ***HELP NEEDEED*** |
-| ----------- | ----------- | ------------------- |
+| ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home ***WARNING without this no task manager*** | See Play Store |
 | pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** | ***HELP NEEDEED*** |
 
 ### Other (Help needeed)
 | Syntax      | App Name | what this app do ? |
-| ----------- | ----------- | ------------------- |
+| ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.samsung.android.provider.filterprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'org.blokada.alarm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.DataCreate' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
