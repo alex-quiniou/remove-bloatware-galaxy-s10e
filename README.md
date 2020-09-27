@@ -192,13 +192,13 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.google.android.ext.services' | Android Services Library | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.onetimeinitializer' | Google One Time Init | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.ext.shared' | Android Shared Library | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.google.android.overlay.gmsgsaconfig' | com.google.android.overlay.gmsgsaconfig | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.google.android.overlay.gmsgsaconfig' | - | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.configupdater' | ConfigUpdater | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.google.android.overlay.modules.permissioncontroller' | com.google.android.overlay.modules.permissioncontroller | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.google.android.overlay.modules.permissioncontroller' | - | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.permissioncontroller' | Contrôleur autorisations | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.setupwizard' | Configuration d'Android | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.google.android.overlay.gmsconfig' | com.google.android.overlay.gmsconfig | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.google.android.overlay.modules.ext.services' | com.google.android.overlay.modules.ext.services | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.google.android.overlay.gmsconfig' | - | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.google.android.overlay.modules.ext.services' | - | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.modulemetadata' | Main components | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.syncadapters.contacts' | Synchronisation de Google Contacts | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.packageinstaller' | Programme installation kit | ***HELP NEEDEED*** |
@@ -206,7 +206,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.google.android.partnersetup' | Google Partner Setup | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.feedback' | Market Feedback Agent | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.printservice.recommendation' | Print Service Recommendation Service | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.google.android.overlay.modules.permissioncontroller.forframework' | com.google.android.overlay.modules.permissioncontroller.forframework | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.google.android.overlay.modules.permissioncontroller.forframework' | - | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.syncadapters.calendar' | Synchronisation de Google Agenda | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.google.android.apps.restore' | Configuration d'Android | ***HELP NEEDEED*** |
 
