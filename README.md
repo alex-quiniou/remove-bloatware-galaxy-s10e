@@ -243,7 +243,16 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.scloud' | Samsung Cloud | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces | ***HELP NEEDEED*** |
-|pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.autodoodle.service' | AutoDoodle | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.app.smartcapture' | Capture Samsung | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.drivelink.stub' | CarmodeStub | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.honeyboard' | Clavier Samsung | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.livestickers' | DECO PIC | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.mimage.photoretouching' | Editeur de photos | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.mimage.avatarstickers' | Editeur de photos | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.service.health' | Health Service | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.app.social' | Nouveautés | ***HELP NEEDEED*** |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home ***WARNING without this no task manager*** | See Play Store |
 | pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** | ***HELP NEEDEED*** |
@@ -277,7 +286,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.clipboardsaveservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.automation' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.providers.media' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.app.social' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.internal.systemui.navbar.gestural_wide_back' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.wallpapercropper' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.smartmirroring' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -336,7 +344,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.mlp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.rcs' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.ofviewer' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.drivelink.stub' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'android' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.hotwordenrollment.xgoogle' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.sm.devicesecurity' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -397,7 +404,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.cm_prod.bad' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.app.slowmotion' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.smartcallprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.app.smartcapture' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'me.ccrama.redditslide' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'io.github.hidroh.materialistic' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.taskedge' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -428,13 +434,11 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.siofviewer' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.allshare.service.fileshare' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'org.videolan.vlc' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.sec.android.mimage.photoretouching' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.launcher' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.apex' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.sec.android.teegris.tui_service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.setting.multisound' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.dreams.phototable' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.sec.android.service.health' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.safetyinformation' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.dialer' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.dqagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -453,14 +457,12 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.providers.media' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.soagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'org.mozilla.firefox' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.sec.android.autodoodle.service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.quicktool' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.fmm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mdm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.unifiedwfc' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.phone' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.interactivepanoramaviewer' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.honeyboard' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.storagemanager' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.soundpicker' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.app.RilErrorNotifier' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -472,7 +474,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.sec.android.app.bluetoothtest' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.sdhms' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.spage' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.sec.android.mimage.avatarstickers' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.sm.policy' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.networkstack.permissionconfig' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.emergencylauncher' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -483,7 +484,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.singletake.service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.cts.ctsshim' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.splitsound' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.livestickers' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.svcagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.mhs.smarttethering' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
