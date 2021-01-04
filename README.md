@@ -174,13 +174,13 @@ pm uninstall -k --user 0 'com.samsung.android.mdx.quickboard'
 You are probably using one of them. Pay attention about your actions !
 
 ### Microsoft
-| Syntax      | App Name **FRENCH** | what this app do ? |
+| Syntax      | App Name `FRENCH` | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.microsoft.skydrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive)' | Microsoft OneDrive | See Play Store |
 | pm uninstall -k --user 0 '[com.microsoft.appmanager](https://play.google.com/store/apps/details?id=com.microsoft.appmanager)' | Your Phone Companion - Link to Windows | See Play Store |
 
 ### Google
-| Syntax      | App Name **FRENCH** | what this app do ? |
+| Syntax      | App Name `FRENCH` | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.android.chrome](https://play.google.com/store/apps/details?id=com.android.chrome)' | Google Chrome: Fast & Secure | See Play Store |
 | pm uninstall -k --user 0 '[com.google.android.youtube](https://play.google.com/store/apps/details?id=com.google.android.youtube)' | YouTube | See Play Store |
@@ -228,7 +228,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.google.android.apps.restore' | Configuration d'Android | ***HELP NEEDEED*** |
 
 ### Samsung
-| Syntax      | App Name **FRENCH** | what this app do ? |
+| Syntax      | App Name `FRENCH` | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.myfiles](https://play.google.com/store/apps/details?id=com.sec.android.app.myfiles)' | Samsung My Files | See Play Store |
 | pm uninstall -k --user 0 '[com.sec.android.gallery3d](https://play.google.com/store/apps/details?id=com.sec.android.gallery3d)' | Samsung Gallery | See Play Store |
@@ -278,7 +278,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** | ***HELP NEEDEED*** |
 
 ### Other (Help needeed)
-| Syntax      | App Name **FRENCH** | what this app do ? |
+| Syntax      | App Name `FRENCH` | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.samsung.android.provider.filterprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'org.blokada.alarm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
