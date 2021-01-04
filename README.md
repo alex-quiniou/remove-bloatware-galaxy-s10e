@@ -8,12 +8,12 @@
 
 ### You want to submit a new app, update an information or post a problem ?
 
-You can help. It's easy. Create an issue and take your time to explain what you want.
-Download this open source [App Manager](https://muntashirakon.github.io/AppManager/) then report here every information you can get on any app.
+You can help. It's easy. Create an issue and take your time to explain what you want.  
+Download this open source [App Manager](https://muntashirakon.github.io/AppManager/) then report here every information you can get on any app.  
 
 ### You unistalled an important app, what to do ?
-You can restore any app you have 'unistall'
-Use this command ***cmd package install-existing XXX*** and replace ***XXX*** by the name of the app.
+You can restore any app you have 'unistall'  
+Use this command ***cmd package install-existing XXX*** and replace ***XXX*** by the name of the app.  
 
 # 1. Steps
 
