@@ -165,10 +165,10 @@ pm uninstall -k --user 0 'com.samsung.android.aware.service'
 pm uninstall -k --user 0 'com.samsung.android.app.sharelive'  
 
 ### Lateral Panel
-pm uninstall -k --user 0 'com.samsung.android.app.sbrowseredge'
-pm uninstall -k --user 0 'com.samsung.android.app.clipboardedge'
-pm uninstall -k --user 0 'com.sec.android.app.quicktool'
-pm uninstall -k --user 0 'com.samsung.android.mdx.quickboard'
+pm uninstall -k --user 0 'com.samsung.android.app.sbrowseredge'  
+pm uninstall -k --user 0 'com.samsung.android.app.clipboardedge'  
+pm uninstall -k --user 0 'com.sec.android.app.quicktool'  
+pm uninstall -k --user 0 'com.samsung.android.mdx.quickboard'  
 
 # Hard list removal
 You are probably using one of them. Pay attention about your actions !
