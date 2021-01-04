@@ -138,7 +138,8 @@ pm uninstall -k --user 0 'com.sec.android.app.clockpackage'
 pm uninstall -k --user 0 'com.samsung.android.game.gamehome'  
 pm uninstall -k --user 0 'com.samsung.android.game.gametools'  
 pm uninstall -k --user 0 'com.samsung.android.game.gos'  
-pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'  
+pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'
+pm uninstall -k --user 0 'com.samsung.android.hmt.vrsvc'  
 
 ### Samsung AR
 pm uninstall -k --user 0 'com.samsung.android.aremoji'  
@@ -147,6 +148,7 @@ pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearframe.pre
 pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.preload'  
 pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload'  
 pm uninstall -k --user 0 'com.samsung.android.arzone'  
+pm uninstall -k --user 0 'com.samsung.android.livestickers'  
 
 ### Samsung Share apps
 pm uninstall -k --user 0 'com.samsung.android.app.simplesharing'  
@@ -248,11 +250,14 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.smartcapture' | Capture Samsung | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.drivelink.stub' | CarmodeStub | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.honeyboard' | Clavier Samsung | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.livestickers' | DECO PIC | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.mimage.photoretouching' | Editeur de photos | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.mimage.avatarstickers' | Editeur de photos | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.service.health' | Health Service | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.social' | Nouveautés | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.digitalkey' | Samsung Digital Key | https://global-carconnectivity.org/ |
+| pm uninstall -k --user 0 'com.samsung.android.mdx.quickboard' | Médias et appareils | ***HELP NEEDEED*** |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home ***WARNING without this no task manager*** | See Play Store |
 | pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** | ***HELP NEEDEED*** |
@@ -308,7 +313,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.android.providers.downloads' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.networkstack.inprocess' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.ucs.agent.boot' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.mdx.quickboard' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.wsomacp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.faceservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'ch.protonmail.android' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -377,7 +381,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.sec.modem.settings' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.monotype.android.font.samsungone' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.internal.systemui.navbar.gestural_extra_wide_back' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.digitalkey' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.servicemodeapp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.preloadinstaller' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.uibcvirtualsoftkey' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -387,7 +390,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.accessibility' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.imsservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.sharedstoragebackup' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.mobileservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.printspooler' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.hotwordenrollment.okgoogle' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mdx.kit' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -487,7 +489,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.svcagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.mhs.smarttethering' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.mateagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.networkdiagnostic' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.shortcutbackupservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.server.wifi.mobilewips.client' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
