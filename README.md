@@ -1,10 +1,19 @@
 # Bloatware remover for | Galaxy S10e (SM-G970F)
 
-This project can help you if
+# 0. This project can help you if
 
-  - You don't have time to search a solution by yourself
-  - Don't know how android apps works under the hood
-  - Get ride of some apps quickly
+  - You don't have time to search a solution by yourself.
+  - Don't know how android apps works under the hood.
+  - Get ride of some apps quickly.
+
+# 0.1 You want to submit a new app, update an information or post a problem ?
+
+You can help. It's easy. Create an issue and take your time to explain what you want.
+Download this open source [App Manager](https://muntashirakon.github.io/AppManager/) then report here every information you can get on any app.
+
+# 0.2 You unistalled an important app, what to do ?
+You can restore any app you have 'unistall'
+Use this command ***cmd package install-existing XXX*** and replace ***XXX*** by the name of the app.
 
 # 1. Steps
 
@@ -139,7 +148,6 @@ pm uninstall -k --user 0 'com.samsung.android.game.gamehome'
 pm uninstall -k --user 0 'com.samsung.android.game.gametools'  
 pm uninstall -k --user 0 'com.samsung.android.game.gos'  
 pm uninstall -k --user 0 'com.samsung.gamedriver.S10MaliG76'
-pm uninstall -k --user 0 'com.samsung.android.hmt.vrsvc'  
 
 ### Samsung AR
 pm uninstall -k --user 0 'com.samsung.android.aremoji'  
@@ -149,23 +157,30 @@ pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facearavatar.pr
 pm uninstall -k --user 0 'com.samsung.android.app.camera.sticker.facear.preload'  
 pm uninstall -k --user 0 'com.samsung.android.arzone'  
 pm uninstall -k --user 0 'com.samsung.android.livestickers'  
+pm uninstall -k --user 0 'com.samsung.android.hmt.vrsvc'  
 
 ### Samsung Share apps
 pm uninstall -k --user 0 'com.samsung.android.app.simplesharing'  
 pm uninstall -k --user 0 'com.samsung.android.aware.service'  
 pm uninstall -k --user 0 'com.samsung.android.app.sharelive'  
 
+### Lateral Panel
+pm uninstall -k --user 0 'com.samsung.android.app.sbrowseredge'
+pm uninstall -k --user 0 'com.samsung.android.app.clipboardedge'
+pm uninstall -k --user 0 'com.sec.android.app.quicktool'
+pm uninstall -k --user 0 'com.samsung.android.mdx.quickboard'
+
 # Hard list removal
 You are probably using one of them. Pay attention about your actions !
 
 ### Microsoft
-| Syntax      | App Name | what this app do ? |
+| Syntax      | App Name **FRENCH** | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.microsoft.skydrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive)' | Microsoft OneDrive | See Play Store |
 | pm uninstall -k --user 0 '[com.microsoft.appmanager](https://play.google.com/store/apps/details?id=com.microsoft.appmanager)' | Your Phone Companion - Link to Windows | See Play Store |
 
 ### Google
-| Syntax      | App Name | what this app do ? |
+| Syntax      | App Name **FRENCH** | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.android.chrome](https://play.google.com/store/apps/details?id=com.android.chrome)' | Google Chrome: Fast & Secure | See Play Store |
 | pm uninstall -k --user 0 '[com.google.android.youtube](https://play.google.com/store/apps/details?id=com.google.android.youtube)' | YouTube | See Play Store |
@@ -213,7 +228,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.google.android.apps.restore' | Configuration d'Android | ***HELP NEEDEED*** |
 
 ### Samsung
-| Syntax      | App Name | what this app do ? |
+| Syntax      | App Name **FRENCH** | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.myfiles](https://play.google.com/store/apps/details?id=com.sec.android.app.myfiles)' | Samsung My Files | See Play Store |
 | pm uninstall -k --user 0 '[com.sec.android.gallery3d](https://play.google.com/store/apps/details?id=com.sec.android.gallery3d)' | Samsung Gallery | See Play Store |
@@ -237,11 +252,9 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.storyservice' | Histoire de la Galerie | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.hmt.vrsvc' | Gear VR Service | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.service.livedrawing' | Messages animés | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.app.clipboardedge' | Presse-papiers latéral | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.kidsinstaller' | Programme d'installation Espace enfants | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.svoiceime' | Saisie vocale Samsung | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.reminder' | Reminder | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.app.sbrowseredge' | Volet Samsung Internet | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.scloud' | Samsung Cloud | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces | ***HELP NEEDEED*** |
@@ -257,13 +270,15 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.digitalkey' | Samsung Digital Key | https://global-carconnectivity.org/ |
-| pm uninstall -k --user 0 'com.samsung.android.mdx.quickboard' | Médias et appareils | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.daemonapp' | Météo | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.smartmirroring' | Smart View | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | Wearable Manager Installer | ***HELP NEEDEED*** |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home ***WARNING without this no task manager*** | See Play Store |
 | pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** | ***HELP NEEDEED*** |
 
 ### Other (Help needeed)
-| Syntax      | App Name | what this app do ? |
+| Syntax      | App Name **FRENCH** | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.samsung.android.provider.filterprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'org.blokada.alarm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -293,7 +308,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.android.providers.media' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.internal.systemui.navbar.gestural_wide_back' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.wallpapercropper' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.smartmirroring' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.skms.android.agent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.safetyassurance' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.incallui' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -397,7 +411,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.internal.systemui.navbar.gestural_no_hint_extra_wide_back' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.se' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.inputdevices' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.kgclient' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.bips' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.stk2' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.service.peoplestripe' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -459,7 +472,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.providers.media' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.soagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'org.mozilla.firefox' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.sec.android.app.quicktool' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.fmm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mdm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.unifiedwfc' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -486,7 +498,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.singletake.service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.cts.ctsshim' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.splitsound' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.svcagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.mhs.smarttethering' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.networkdiagnostic' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -542,10 +553,3 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.bio.face.service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'android.auto_generated_rro_vendor__' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.simplemobiletools.clock' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-
-### You unistalled an important app, what to do ?
-You can restore any app you have 'unistall'
-Use this command ***cmd package install-existing XXX*** and replace ***XXX*** by the name of the app.
-
-### You want to submit a new app or post a problem ?
-Create an issue and take your time to explain what you want
