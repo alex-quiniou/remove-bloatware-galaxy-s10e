@@ -15,6 +15,9 @@ Download this open source [App Manager](https://muntashirakon.github.io/AppManag
 You can restore any app you have 'unistall'  
 Use this command ***cmd package install-existing XXX*** and replace ***XXX*** by the name of the app.  
 
+### Want a listing of your apps ?
+After `1.5.1` type pm ***list packages***  
+
 # 1. Steps
 
 1. Download and unzip [Minimal ADB and Fastboot (portable version --> zip)](https://forum.xda-developers.com/showthread.php?t=2317790)
