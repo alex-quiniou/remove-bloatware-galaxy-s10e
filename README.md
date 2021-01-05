@@ -16,14 +16,14 @@ You can restore any app you have 'unistall'
 Use this command ***cmd package install-existing XXX*** and replace ***XXX*** by the name of the app.  
 
 ### Want a listing of your apps ?
-After `1.6.1` type pm ***list packages***  
+After `1.6.i` type pm ***list packages***  
 
 # 1. Steps
 
 1. Download and unzip [Minimal ADB and Fastboot (portable version --> zip)](https://forum.xda-developers.com/showthread.php?t=2317790)
     1. After dowloaded ***Minimal ADB and Fastboot***, unzip it where you want
-    1. Double click on ***cmd-here.exe***
-    1. Type inside CMD window ***adb devices***, it will launch daemon (*daemon not running; *starting now at tcp:5037 * daemon started successfully)
+    2. Double click on ***cmd-here.exe***
+    3. Type inside CMD window ***adb devices***, it will launch daemon (*daemon not running; *starting now at tcp:5037 * daemon started successfully)
 2. [Enable developer options](https://developer.android.com/studio/debug/dev-options#enable)
     1. Settings > About Phone > Information about software > Build Number
     2. Poque it more than 7 times
