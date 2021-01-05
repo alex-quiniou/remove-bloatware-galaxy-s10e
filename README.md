@@ -16,7 +16,7 @@ You can restore any app you have 'unistall'
 Use this command ***cmd package install-existing XXX*** and replace ***XXX*** by the name of the app.  
 
 ### Want a listing of your apps ?
-After `1.5.1` type pm ***list packages***  
+After `1.6.1` type pm ***list packages***  
 
 # 1. Steps
 
@@ -32,11 +32,11 @@ After `1.5.1` type pm ***list packages***
     1. Go back twice
     2. Inside the parameter app, at the bottom clic at ***developpers options***
     3. Find and toggle ***USB Debugging***
-3. Connect your phone to your PC
+4. Connect your phone to your PC
     1. On your phone autorize ***Autorize phone debugging*** and check ***Always autorize this computer***
-4. Check your device connectivity
+5. Check your device connectivity
     1. type ***adb devices*** ,you should see after ***List of devices attached*** your phone with random letters and numbers before the word ***device***
-5. Shell
+6. Shell
     1. Type ***adb shell*** in CMD, you should see ***beyond0:/ $***
     2. Copy and past list bellow
 
