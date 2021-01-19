@@ -16,7 +16,7 @@ You can restore any app you have 'unistall'
 Use this command ***cmd package install-existing XXX*** and replace ***XXX*** by the name of the app.  
 
 ### Want a listing of your apps ?
-After `1.6.i` type pm ***list packages***  
+After `1.6.i` type ***pm list packages***  
 
 # 1. Steps
 
