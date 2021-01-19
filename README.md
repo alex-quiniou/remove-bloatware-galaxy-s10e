@@ -72,7 +72,6 @@ pm uninstall -k --user 0 'com.samsung.knox.securefolder'
 pm uninstall -k --user 0 'com.knox.vpn.proxyhandler'  
 pm uninstall -k --user 0 'com.sec.enterprise.knox.cloudmdm.smdms'  
 pm uninstall -k --user 0 'com.sec.enterprise.knox.attestation'  
-pm uninstall -k --user 0 'com.android.managedprovisioning'  
 
 ### Dex
 pm uninstall -k --user 0 'com.sec.android.app.dexonpc'  
@@ -277,6 +276,8 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.sec.android.daemonapp' | Météo | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.smartmirroring' | Smart View | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | Wearable Manager Installer | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.android.managedprovisioning' | Configuration du profil professionnel | ***HELP NEEDEED*** |
+
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home ***WARNING without this no task manager*** | See Play Store |
 | pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** | ***HELP NEEDEED*** |
