@@ -277,7 +277,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.smartmirroring' | Smart View | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | Wearable Manager Installer | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.managedprovisioning' | Configuration du profil professionnel | ***HELP NEEDEED*** |
-
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.launcher](https://play.google.com/store/apps/details?id=com.sec.android.app.launcher)' | Samsung One UI Home ***WARNING without this no task manager*** | See Play Store |
 | pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** | ***HELP NEEDEED*** |
