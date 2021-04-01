@@ -270,7 +270,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.smartcapture' | Capture Samsung | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.honeyboard' | Clavier Samsung | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.mimage.photoretouching' | Editeur de photos | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.app.social' | Nouveautés | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.digitalkey' | Samsung Digital Key | https://global-carconnectivity.org/ |
