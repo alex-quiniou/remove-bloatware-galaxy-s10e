@@ -165,6 +165,7 @@ pm uninstall -k --user 0 'com.samsung.android.hmt.vrsvc'
 pm uninstall -k --user 0 'com.samsung.android.app.simplesharing'  
 pm uninstall -k --user 0 'com.samsung.android.aware.service'  
 pm uninstall -k --user 0 'com.samsung.android.app.sharelive'  
+pm uninstall -k --user 0 'com.samsung.android.privateshare'  
 
 ### Lateral Panel
 pm uninstall -k --user 0 'com.samsung.android.app.clipboardedge'  
