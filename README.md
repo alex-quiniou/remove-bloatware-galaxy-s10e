@@ -175,7 +175,7 @@ pm uninstall -k --user 0 'com.samsung.android.app.cocktailbarservice'
 pm uninstall -k --user 0 'package:com.samsung.android.app.appsedge'  
 pm uninstall -k --user 0 'package:com.samsung.android.app.taskedge'  
 
-# Hard list removal
+# 3. Hard list removal
 You are probably using one of them. Pay attention about your actions !
 
 ### Microsoft
