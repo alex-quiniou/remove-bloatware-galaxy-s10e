@@ -1,5 +1,3 @@
-https://www.diffchecker.com/DSOTnyYZ  
-  
 package:com.samsung.android.provider.filterprovider  
 package:com.sec.android.app.DataCreate  
 package:com.android.cts.priv.ctsshim  
