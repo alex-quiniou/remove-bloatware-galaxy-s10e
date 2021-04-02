@@ -179,13 +179,13 @@ pm uninstall -k --user 0 'package:com.samsung.android.app.taskedge'
 You are probably using one of them. Pay attention about your actions !
 
 ### Microsoft
-| Syntax      | App Name `FRENCH` | what this app do ? |
+| Syntax      | App Name `FRENCH / ENGLISH` | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.microsoft.skydrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive)' | Microsoft OneDrive | See Play Store |
 | pm uninstall -k --user 0 '[com.microsoft.appmanager](https://play.google.com/store/apps/details?id=com.microsoft.appmanager)' | Your Phone Companion - Link to Windows | See Play Store |
 
 ### Google
-| Syntax      | App Name `FRENCH` | what this app do ? |
+| Syntax      | App Name `FRENCH / ENGLISH` | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.android.chrome](https://play.google.com/store/apps/details?id=com.android.chrome)' | Google Chrome: Fast & Secure | See Play Store |
 | pm uninstall -k --user 0 '[com.google.android.youtube](https://play.google.com/store/apps/details?id=com.google.android.youtube)' | YouTube | See Play Store |
@@ -239,13 +239,16 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.android.hotwordenrollment.xgoogle' | Google Assistant | ***HELP NEEDEED*** |
 
 ### Samsung
-| Syntax      | App Name `FRENCH` | what this app do ? |
+| Syntax      | App Name `FRENCH / ENGLISH` | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 '[com.sec.android.app.myfiles](https://play.google.com/store/apps/details?id=com.sec.android.app.myfiles)' | Samsung My Files | See Play Store |
 | pm uninstall -k --user 0 '[com.sec.android.gallery3d](https://play.google.com/store/apps/details?id=com.sec.android.gallery3d)' | Samsung Gallery | See Play Store |
 | pm uninstall -k --user 0 '[com.samsung.android.app.aodservice](https://play.google.com/store/apps/details?id=com.samsung.android.app.aodservice)' | Always On Display | See Play Store |
 | pm uninstall -k --user 0 '[com.samsung.android.lool](https://play.google.com/store/apps/details?id=com.samsung.android.lool)' | Device Care | See Play Store |
 | ----------- | ----------- | ----------- |
+| pm uninstall -k --user 0 'com.samsung.android.ipsgeofence' | Samsung Visit in | add a banner add notification when it things you are near a samsung store |
+| pm uninstall -k --user 0 'com.samsung.android.fast' | Secure Wi-fi | limited VPN offering |
+| pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service / Group Sharing | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.calendar' | Calendrier | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.inputmethod' | Clavier Samsung (obsolète)| ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.osp.app.signin' | Compte Samsung | ***HELP NEEDEED*** |
@@ -271,7 +274,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.honeyboard' | Clavier Samsung | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.mimage.photoretouching' | Editeur de photos | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.digitalkey' | Samsung Digital Key | https://global-carconnectivity.org/ |
 | pm uninstall -k --user 0 'com.sec.android.daemonapp' | Météo | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.smartmirroring' | Smart View | ***HELP NEEDEED*** |
@@ -282,7 +284,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.galaxyfinder' | Finder ***WARNING without this no search bar in parameter*** | ***HELP NEEDEED*** |
 
 ### Other (Help needeed)
-| Syntax      | App Name `FRENCH` | what this app do ? |
+| Syntax      | App Name `FRENCH / ENGLISH` | what this app do ? |
 | ----------- | ----------- | ----------- |
 | pm uninstall -k --user 0 'com.samsung.android.provider.filterprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.DataCreate' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -416,7 +418,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.android.cellbroadcastservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.imslogger' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.keychain' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.ipsgeofence' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.server.wifi.mobilewips' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'android.autoinstalls.config.samsung' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.wifi.resources' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -463,7 +464,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.android.bookmarkprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.settings' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.dsms' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.fast' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.bluetoothtest' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.sdhms' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.sm.policy' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
