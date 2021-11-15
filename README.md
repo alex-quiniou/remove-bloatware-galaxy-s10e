@@ -144,7 +144,6 @@ pm uninstall -k --user 0 'com.samsung.android.kgclient'
 pm uninstall -k --user 0 'com.sec.android.app.billing'  
 
 ### Samsung Clock
-pm uninstall -k --user 0 'com.samsung.android.dynamiclock'  
 pm uninstall -k --user 0 'com.sec.android.app.clockpackage'  
 
 ### Samsung Games
@@ -246,6 +245,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 '[com.samsung.android.app.aodservice](https://play.google.com/store/apps/details?id=com.samsung.android.app.aodservice)' | Always On Display | See Play Store |
 | pm uninstall -k --user 0 '[com.samsung.android.lool](https://play.google.com/store/apps/details?id=com.samsung.android.lool)' | Device Care | See Play Store |
 | ----------- | ----------- | ----------- |
+| pm uninstall -k --user 0 'com.samsung.android.dynamiclock' | Services de fond d'écran | feature for the lock screen |
 | pm uninstall -k --user 0 'com.samsung.android.ipsgeofence' | Samsung Visit in | add a banner add notification when it things you are near a samsung store |
 | pm uninstall -k --user 0 'com.samsung.android.fast' | Secure Wi-fi | limited VPN offering |
 | pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service / Group Sharing | ***HELP NEEDEED*** |
