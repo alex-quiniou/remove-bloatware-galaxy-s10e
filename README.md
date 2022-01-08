@@ -271,7 +271,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.autodoodle.service' | AutoDoodle | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.smartcapture' | Capture Samsung | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.honeyboard' | Clavier Samsung | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.honeyboard' | Clavier Samsung | '[Issue #5](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e/issues/5#issue-1071451449)' |
 | pm uninstall -k --user 0 'com.sec.android.mimage.photoretouching' | Editeur de photos | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.digitalkey' | Samsung Digital Key | https://global-carconnectivity.org/ |
