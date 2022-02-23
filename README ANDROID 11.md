@@ -1,4 +1,4 @@
-# Bloatware remover for | Galaxy S10e Android 12 (SM-G970F/DS)
+# Bloatware remover for | Galaxy S10e Android 11 (SM-G970F/DS)
 
 # 0. This project can help you if
 
@@ -56,6 +56,7 @@ pm uninstall -k --user 0 'com.samsung.systemui.bixby2'
 pm uninstall -k --user 0 'com.samsung.android.bixby.service'  
 pm uninstall -k --user 0 'com.samsung.android.bixby.agent'  
 pm uninstall -k --user 0 'com.samsung.android.bixby.wakeup'  
+pm uninstall -k --user 0 'com.samsung.android.bixby.agent.dummy'  
 pm uninstall -k --user 0 '[com.samsung.android.app.routines](http://apps.samsung.com/appquery/appDetail.as?appId=com.samsung.android.app.routines&cId=000004770242)'  
 pm uninstall -k --user 0 'com.samsung.android.visionintelligence'  
 
@@ -66,10 +67,11 @@ pm uninstall -k --user 0 'com.samsung.android.knox.containeragent'
 pm uninstall -k --user 0 'com.samsung.android.knox.pushmanager'  
 pm uninstall -k --user 0 'com.samsung.android.knox.analytics.uploader'  
 pm uninstall -k --user 0 'com.samsung.android.bbc.bbcagent'  
+pm uninstall -k --user 0 'com.samsung.knox.keychain'  
 pm uninstall -k --user 0 'com.samsung.knox.securefolder'  
 pm uninstall -k --user 0 'com.knox.vpn.proxyhandler'  
 pm uninstall -k --user 0 'com.sec.enterprise.knox.cloudmdm.smdms'  
-pm uninstall -k --user 0 'com.samsung.android.knox.kpecore'  
+pm uninstall -k --user 0 'com.sec.enterprise.knox.attestation'  
 
 ### Dex
 pm uninstall -k --user 0 'com.sec.android.app.dexonpc'  
@@ -91,6 +93,34 @@ pm uninstall -k --user 0 'com.samsung.android.themestore'
 pm uninstall -k --user 0 'com.samsung.android.themecenter'  
 
 ### Galaxy Theme styles
+pm uninstall -k --user 0 'com.android.theme.color.cinnamon'  
+pm uninstall -k --user 0 'com.android.theme.color.black'  
+pm uninstall -k --user 0 'com.android.theme.color.green'  
+pm uninstall -k --user 0 'com.android.theme.color.ocean'  
+pm uninstall -k --user 0 'com.android.theme.color.space'  
+pm uninstall -k --user 0 'com.android.theme.color.orchid'  
+pm uninstall -k --user 0 'com.android.theme.color.purple'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.systemui'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.android'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.themepicker'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.launcher'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.settings'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.settings'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.systemui'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.android'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.systemui'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.launcher'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.launcher'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.themepicker'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.settings'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.android'  
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.themepicker'  
+pm uninstall -k --user 0 'com.android.theme.icon.teardrop'  
+pm uninstall -k --user 0 'com.android.theme.icon.squircle'  
+pm uninstall -k --user 0 'com.android.theme.icon.roundedrect'  
+pm uninstall -k --user 0 'com.android.theme.icon.pebble'  
+pm uninstall -k --user 0 'com.android.theme.icon.vessel'  
+pm uninstall -k --user 0 'com.android.theme.icon.taperedrect'  
 pm uninstall -k --user 0 'com.android.theme.font.notoserifsource'  
 
 ### ANT +
@@ -220,6 +250,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.fast' | Secure Wi-fi | limited VPN offering |
 | pm uninstall -k --user 0 'com.samsung.android.mobileservice' | Samsung Experience Service / Group Sharing | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.calendar' | Calendrier | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.inputmethod' | Clavier Samsung (obsolète)| ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.osp.app.signin' | Compte Samsung | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.contacts' | Contacts | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.forest' | Bien-etre numérique et controles parentaux | ***HELP NEEDEED*** |
@@ -228,6 +259,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.messaging' | Messages | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.wallpaper.res' | com.samsung.android.wallpaper.res | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.app.newtrim' | Découpage de vidéos | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.app.highlightplayer' | Créer un film | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.storyservice' | Histoire de la Galerie | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.service.livedrawing' | Messages animés | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.kidsinstaller' | Programme d'installation Espace enfants | ***HELP NEEDEED*** |
@@ -237,10 +269,12 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.app.spage' | Samsung Daily Beta | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.tips' | Astuces | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mdx' | Service Lien avec Windows | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.autodoodle.service' | AutoDoodle | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.smartcapture' | Capture Samsung | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.honeyboard' | Clavier Samsung | [Issue #5](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e/issues/5#issue-1071451449) |
 | pm uninstall -k --user 0 'com.sec.android.mimage.photoretouching' | Editeur de photos | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mateagent' | Samsung Galaxy Friends | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.digitalkey' | Samsung Digital Key | https://global-carconnectivity.org/ |
 | pm uninstall -k --user 0 'com.sec.android.daemonapp' | Météo | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.smartmirroring' | Smart View | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.watchmanagerstub' | Wearable Manager Installer | ***HELP NEEDEED*** |
@@ -252,11 +286,10 @@ You are probably using one of them. Pay attention about your actions !
 ### Other (Help needeed)
 | Syntax      | App Name `FRENCH / ENGLISH` | what this app do ? |
 | ----------- | ----------- | ----------- |
-| pm uninstall -k --user 0 'com.samsung.android.app.updatecenter' | Mise à jour des applications | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.wifi.p2paware.resources' | com.samsung.android.wifi.p2paware.resources | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.provider.filterprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.DataCreate' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.cts.priv.ctsshim' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.widgetapp.samsungapps' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.vsim.ericssonnsds.webapp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.setupwizardlegalprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.location.nsflp2' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -269,7 +302,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.sec.android.app.ve.vebgm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.parser' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.dynsystem' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.app.kfa' | KFA | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.internal.systemui.navbar.gestural_no_hint_wide_back' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.networkstack' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.timezone.updater' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.providers.calendar' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -283,24 +316,22 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.sec.android.app.safetyassurance' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.incallui' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.factory.camera' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.phone.overlay.common' | com.samsung.phone.overlay.common | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.usbsettings' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.easysetup' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.externalstorage' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.easyonehand' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.factory' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.htmlviewer' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.vtcamerasettings' | Effets pour les appels visio | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.companiondevicemanager' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.mms.service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.rubin.app' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.providers.downloads' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.android.internal.systemui.onehanded.gestural' | One Handed Mode | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.wsomacp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.faceservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.gpuwatchapp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.monotype.android.font.foundation' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.widgetapp.easymodecontactswidget' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.MtpApplication' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.factorykeystring' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.emergencymode.service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.wlantest' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -314,15 +345,14 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.android.pacprocessor' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.simappdialog' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.secsoundpicker' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.incall.contentprovider' | CallContentProvider | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.internal.systemui.navbar.sec_gestural' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.android.connectivity.resources' | Ressources de connectivité système | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.sume.nn.service' | SumeNN | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.SettingsReceiver' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.internal.display.cutout.emulation.hole' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.internal.display.cutout.emulation.tall' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.soundalive' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.provider.badge' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.certinstaller' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.securitylogagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.carrierconfig' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.internal.systemui.navbar.threebutton' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.SMT' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -331,7 +361,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.rcs' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'android' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.sm.devicesecurity' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.peripheral.framework' | Peripheral Framework | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.providers.carrier' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.internal.systemui.navbar.sec_gestural_no_hint' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.aircommandmanager' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.net.wifi.wifiguider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -344,6 +374,7 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.camerasdkservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.backupconfirm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.klmsagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.smartfitting' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.SecSetupWizard' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.telephonyui' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.wifi.softap.resources' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -355,19 +386,17 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.sec.modem.settings' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.monotype.android.font.samsungone' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.internal.systemui.navbar.gestural_extra_wide_back' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.privacydashboard' | Utilisation d'autorisations | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.servicemodeapp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.preloadinstaller' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.tadownloader' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.providers.settings' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.accessibility' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.imsservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.sharedstoragebackup' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.printspooler' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.mdagent' | MdAgent | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.wcmchinaurlsnetworkstack' | WcmChinaUrlsNetworkStackOverlay | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mdx.kit' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.dreams.basic' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.google.android.as.oss' | Private Compute Services | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.internal.systemui.navbar.gestural_no_hint_extra_wide_back' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.se' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.inputdevices' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.wifi.resources' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -377,7 +406,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.service.peoplestripe' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.da.daagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.brightnessbackupservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.google.android.overlay.gmsconfig.geotz' | com.google.android.overlay.gmsconfig.geotz | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.networkstack.tethering.inprocess.overlay' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.smartcallprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.advp.imssettings' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -395,7 +423,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.android.wifi.resources' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.container' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.calllogbackup' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.android.cameraextensions' | CameraExtensionsproxy | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.diagmonagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.localtransport' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.biometrics.app.setting' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -407,13 +434,14 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.sec.android.app.apex' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.sec.android.teegris.tui_service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.setting.multisound' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.ConnectivityUxOverlay' | ConnectivityUxOverlay | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.dreams.phototable' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.safetyinformation' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.dialer' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.dqagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.sec.android.app.ringtoneBR' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.app.vepreload' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.providers.partnerbookmarks' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.internal.systemui.navbar.gestural_no_hint_narrow_back' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.hdmapp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sem.factoryapp' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.wallpaper.livepicker' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -421,15 +449,11 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.internal.systemui.navbar.gestural_no_hint' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.enterprise.mdm.services.simpin' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.apps.tag' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.android.imsserviceentitlement' | com.android.imsserviceentitlement | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.ConnectivityOverlay' | ConnectivityOverlay | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.stickercenter' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.providers.media' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.soagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.fmm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.gru' | Galaxy Resource Updater | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.mdm' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.mtp' | Application MTP | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.scs' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.unifiedwfc' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.phone' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -445,13 +469,13 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.sm.policy' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.networkstack.tethering.inprocess' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.emergencylauncher' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
+| pm uninstall -k --user 0 'com.samsung.android.motionphoto.viewer' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.hearingadjust' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.bluelightfilter' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.singletake.service' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.callbgprovider' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.cts.ctsshim' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.svcagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.google.android.overlay.modules.modulemetadata.forframework' | com.google.android.overlay.modules.modulemetadata.forframework | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.mhs.smarttethering' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.networkdiagnostic' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.shortcutbackupservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -462,7 +486,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.providers.contacts' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.phone' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.shell' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.cmfa.AuthTouch' | CMFA AuthTouchService | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.wallpaperbackup' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.providers.blockednumber' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.app.omcagent' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
@@ -484,7 +507,6 @@ You are probably using one of them. Pay attention about your actions !
 | pm uninstall -k --user 0 'com.samsung.android.smartsuggestions' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.android.traceur' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.allshare.service.mediashare' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
-| pm uninstall -k --user 0 'com.samsung.android.providers.factory' | FactoryTestProvider | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.pregpudriver.ex9820' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.sec.android.provider.emergencymode' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
 | pm uninstall -k --user 0 'com.samsung.android.cameraxservice' | ***HELP NEEDEED*** | ***HELP NEEDEED*** |
