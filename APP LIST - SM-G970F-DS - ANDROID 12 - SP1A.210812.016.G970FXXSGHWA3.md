@@ -194,7 +194,6 @@ package:com.google.android.captiveportallogin
 package:com.samsung.android.brightnessbackupservice  
 package:com.samsung.android.app.reminder  
 package:com.google.android.overlay.gmsconfig.geotz  
-package:com.cm_prod.bad  
 package:com.samsung.android.networkstack.tethering.inprocess.overlay  
 package:com.samsung.android.smartcallprovider  
 package:com.samsung.android.app.smartcapture  
