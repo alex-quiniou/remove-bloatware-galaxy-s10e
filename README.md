@@ -48,7 +48,7 @@ This apps are not needed at all (unless you are using them). If you remove them 
 2. [ANT +](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#2-ant-)  
 3. [Samsung](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#3-samsung)  
 4. [Microsoft](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#4-microsoft)  
-5. [Google](hhttps://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#5-google)  
+5. [Google](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#5-google)  
 
 ### 1. Facebook
 pm uninstall -k --user 0 'com.facebook.services'  
