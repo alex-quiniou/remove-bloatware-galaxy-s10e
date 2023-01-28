@@ -284,7 +284,6 @@ package:com.samsung.android.beaconmanager
 package:com.samsung.internal.systemui.navbar.gestural_no_hint  
 package:com.sec.enterprise.mdm.services.simpin  
 package:com.android.apps.tag  
-package:com.facebook.orca  
 package:com.samsung.android.ConnectivityOverlay  
 package:com.samsung.android.stickercenter  
 package:com.facebook.system  
