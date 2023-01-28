@@ -157,7 +157,7 @@ pm uninstall -k --user 0 'com.sec.android.app.myfiles'
 `Samsung Gallery`  
 pm uninstall -k --user 0 'com.sec.android.gallery3d'  
 
-`Always On Display`
+`Always On Display`  
 pm uninstall -k --user 0 'com.samsung.android.app.aodservice'  
 
 `Device Care`  
