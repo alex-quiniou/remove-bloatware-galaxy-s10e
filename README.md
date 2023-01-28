@@ -44,11 +44,11 @@ After `1.6.i` type ***pm list packages***
 This apps are not needed at all (unless you are using them). If you remove them nothing bad will happened.
 
 ## Summary
-1. [Facebook](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e/edit/master/README.md#1-facebook)  
-2. [ANT +](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e/edit/master/README.md#2-ant-)  
-3. [Samsung](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e/edit/master/README.md#3-samsung)  
-4. [Microsoft](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e/edit/master/README.md#4-microsoft)  
-5. [Google](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e/edit/master/README.md#5-google)  
+1. [Facebook](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#1-facebook)  
+2. [ANT +](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#2-ant-)  
+3. [Samsung](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#3-samsung)  
+4. [Microsoft](https://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#4-microsoft)  
+5. [Google](hhttps://github.com/alex-quiniou/remove-bloatware-galaxy-s10e#5-google)  
 
 ### 1. Facebook
 pm uninstall -k --user 0 'com.facebook.services'  
